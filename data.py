@@ -1,4 +1,3 @@
-from locators.order_page_locators import OrderPageLocators
 
 class TextData:
     # Тексты ответов Вопросы о важном
@@ -21,7 +20,7 @@ class OrderData:
         "phone": "79991112233",
         "date": "10.05.2026",
         "duration": "сутки",
-        "color": OrderPageLocators.COLOR_BLACK,
+        "color": "black",
         "comment": "Позвоните за час"
     }
 
@@ -33,7 +32,6 @@ class OrderData:
         "phone": "79005554433",
         "date": "06.05.2026",
         "duration": "двое суток",
-        "color": OrderPageLocators.COLOR_GREY,
+        "color": "grey",
         "comment": "Оставьте у двери"
     }
-    

@@ -22,3 +22,4 @@ class OrderPageLocators:
     # Подтверждение
     CONFIRM_BUTTON = (By.XPATH, ".//button[text()='Да']")                                                            # Кнопка Да
     SUCCESS_HEADER = (By.XPATH, "//*[contains(text(), 'Заказ оформлен') or contains(@class, 'Order_ModalHeader')]")  # Заголовок окна успешного заказа
+
